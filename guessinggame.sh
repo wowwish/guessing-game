@@ -1,5 +1,5 @@
-#!/use/bin/env bash
-#File Name : guessinggame.sh
+#!/user/bin/env bash
+# File Name : guessinggame.sh
 
 let target=$(ls -l . | egrep '^-' | wc -l)
 

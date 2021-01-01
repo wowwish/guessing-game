@@ -28,8 +28,7 @@ do
 	elif [[ $response -gt $target ]]
 	then
 		echo "Your guess is too high."
-	elif [[ $response -eq $target ]]
-	then
+	else
 		echo "Congratulations - your Guess is right."
 		break
 	fi
